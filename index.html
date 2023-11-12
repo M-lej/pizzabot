@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./pizza.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <h5>
+          Hey! Happy to serve your pizza. On our menu we have Vegetarian Pizza,
+          Hawaiian Pizza and Pepperoni Pizza.
+        </h5>
+        <h6>Enter the name of the pizza you want to order today.</h6>
+        <input type="text" name="" id="pizzaOrder" />
+        <input type="button" onclick="buy()" value="next" />
+        <p id="validPizza"></p>
+
+        <input id="element1" type="text" hidden />
+        <input
+          id="element2"
+          type="button"
+          onclick="completedOrder()"
+          value="Buy"
+          hidden
+        />
+        <p id="finalOrder"></p>
+      </form>
+    </div>
+  </body>
+</html>
